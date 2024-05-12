@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .foto-predio {
+        background-image: url(/login/imagens/predio-de-escritorios-moderno-opiniao-de-angulo-baixo-dos-arranha-ceus-na-cidade-de-singapura-predio-de-escritorios-moderno-opiniao-de-angulo-baixo-dos-arranha-ceus-na-cidade-de-singapura_231208-1463.avif);
+        background-size: cover;
+        background-position:right bottom;
+        background-repeat: no-repeat;
+        height: 400px;
+        border-radius: 0px 10px 10px 0px;
+        width: 200px;
+        float: left;
+}
+main { 
+    padding-left: 0px;
+    text-align: center;
+    background-color: white;
+    height: 400px;
+    border-radius: 10px 0px 10px 10px;
+    width: 460px;  
+}
+.formulario {
+    margin-top: 20px;
+}
+.formulario input {
+    margin: 3px 2px;
+    padding: 6px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.733);
+    outline: none;
+    width: 200px;
+}
+.formulario button {
+    padding: 8px;
+    width: 200px;
+    border-radius: 6px;
+    border: none;
+    background-color: #07292F;
+    color: white;
+}
+.apresentacao-login p {
+    text-align: center;
+    font-size: 0.7em;
+    padding: 20px 0px;
+    color: #07292F
+}
+}
